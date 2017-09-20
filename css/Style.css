@@ -1,0 +1,76 @@
+
+
+body {
+  margin: 0 auto;
+  width: 800px;
+  background-image: url(grfx/bg.png);
+  background-repeat: repeat-x;
+  font-family: sans-serif;
+}
+header {
+  background-image: url(grfx/header.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+h1 {
+  margin: 0;
+  padding: 15px 0 0 15px;
+
+}
+header p {
+  margin: 0;
+  margin-bottom: 149px;
+  padding-left: 15px;
+}
+header .top-menu {
+  font-family: sans-serif;
+  padding-left: 15px;
+  margin: 0;
+}
+header .top-menu li{
+  display:inline-block;
+  padding-bottom: 30px;
+}
+header .top-menu li :hover{
+  color: lightblue;
+}
+header .top-menu a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+
+}
+main{
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: sans-serif;
+  color: rgba(50,50,60,1);
+}
+main h2{
+    margin: 0;
+
+}
+.top-left {
+  float: left;
+  margin: 0 21px 40px 0;
+}
+.top-right {
+  float: right;
+  margin: 0 0 20px 40px;
+}
+
+#here {
+  color: lightblue;
+}
+
+.left {
+  float: left;
+  margin: 20px 21px 40px 0;
+}
+
+.right {
+  float: right;
+  margin: 25px 0 20px 40px;
+}
